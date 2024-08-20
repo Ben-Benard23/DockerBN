@@ -85,7 +85,7 @@ docker pull <image-name:tag> ### TO pull image from docker registry
 
 
 ###################################
-## Docker volumes
+## Docker volume
 
 docker volume create <volume name>
 
