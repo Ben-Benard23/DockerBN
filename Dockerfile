@@ -12,7 +12,8 @@ COPY app.py /opt/app.py # this will copy app.py file that has the python applica
 
 ADD # ADD will do the same thing like COPY but as extra it can pull URLs which copy cannot/
 
-LABEL project="Middle_school"
+LABEL project="Beautiful plain school division"
+
 
 CMD ["python3", "app.py"]
 
