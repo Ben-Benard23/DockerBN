@@ -93,7 +93,7 @@ docker run -v <host-path:container-path> <image>
 
 docker run --name website -v c:/Users/Anselme/Documents/Demos/docker/website:/usr/share/nginx/html -d -p 9000:80 nginx
 
-docker run -d -p 9000:80 -v c:/Users/Anselme/Documents/Demos/docker/website:/usr/share/nginx/html -v c:/Users/Anselme/Documents/Demos/docker/logs:/var/log/nginx --name nginx-with-my-content nginx
+docker run -d -p 9000:80 -v c:/Users/Anselme/Documents/Demos/docker/logs:/var/log/nginx --name nginx-with-my-content nginx
 
 
 docker exec <cont-ID> -- cat /etc/*release*
