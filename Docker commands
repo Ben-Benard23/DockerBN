@@ -77,7 +77,7 @@ docker run --name <container name> -d -p 8000:8080 <image-name:tag>
 #####################################################
 Docker Registry
 
-docker tag <existing-image-name:tag> <image-name:tag>
+docker tag <existing-image-name:tag> <namespace/new image-name:tag>
 docker login -u <username> -p <password> ### TO login to docker registry
 docker push <image-name:tag>  ### TO push image to docker registry
 docker pull <image-name:tag> ### TO pull image from docker registry
